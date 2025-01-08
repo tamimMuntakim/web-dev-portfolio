@@ -8,13 +8,23 @@
 
 /* common styles */
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
+
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -33,7 +43,8 @@ nav {
     justify-content: space-between;
     margin: 0 100px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
@@ -42,12 +53,39 @@ nav ul{
     font-weight: 800;
     font-size: 45px;
 }
-nav ul li{
+
+nav ul li {
     text-decoration: none;
     list-style: none;
     margin-right: 50px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greetings {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.banner-content-description {
+    font-size: 18px;
+}
+
+.banner-pic {
+    width: 584px;
 }
